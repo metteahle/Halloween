@@ -109,7 +109,7 @@ footer {
 
 /* Sections (højde == skærmhøjde) */
 section {
-  background-color: var(--roed);
+  background-color: var(--brightorange);
 }
 
 /* Billeder */
@@ -183,6 +183,14 @@ p{
   display: none;
 }
 
+body{
+  background-color: var(--groen);
+}
+
+article{
+  background-color: var(--roed);
+}
+
 @keyframes example {
     from {background-color: red;}
     to {background-color: yellow;}
@@ -233,7 +241,7 @@ body{
   h2,
   h3 {
     color: var(--roed);
-    font-size: 550%;
+    font-size: 400%;
   }
 
   #burger{
@@ -259,8 +267,22 @@ body{
     }
 
   p{
-    font-size: 200%;
+    font-size: 150%;
     }
+
+.flex-container{
+  display: flex;
+  align-items: stretch;
+  gap: 2%
+}
+
+section{
+  flex: 2;
+}
+
+.flexitem{
+  align-items: flex-start;
+}
 
 }
 
